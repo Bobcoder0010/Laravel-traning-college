@@ -8,6 +8,10 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return 'hello i am nepali';
+        return view('product.product');
+    }
+    public function create()
+    {
+       return view('product.form');
     }
 }

@@ -13,4 +13,6 @@ Route ::get("/product",function(){
 });
 
 
-Route::get('/product/test', [\App\Http\Controllers\PorductController::class, 'index']);
+Route::get('/product/test', [\App\Http\Controllers\ProductController::class, 'index']);
+Route::get('/product/form',[\App\Http\Controllers\ProductController::class,'create']);
+
