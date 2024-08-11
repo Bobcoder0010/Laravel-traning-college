@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route ::get('/',function(){
     return view ("about");
 });
+Route ::get("/product",function(){
+    return view ("product.product");
+});
