@@ -11,3 +11,6 @@ Route ::get('/',function(){
 Route ::get("/product",function(){
     return view ("product.product");
 });
+
+
+Route::get('/product/test', [\App\Http\Controllers\PorductController::class, 'index']);
